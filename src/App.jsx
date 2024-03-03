@@ -1,14 +1,10 @@
-import CustomSlider from "./Components/CustomSlider";
-import Sliders from "./components/Slick-Slider/Slider";
-import SwiperSlider from "./components/swiper-slider/Swiper";
+import TodoLists from "./components/TodoLists";
 
 function App() {
   return (
-    <>
-      <CustomSlider />
-      <Sliders />
-      <SwiperSlider />
-    </>
+    <section className="w-full h-screen grid place-items-center">
+      <TodoLists />
+    </section>
   );
 }
 
