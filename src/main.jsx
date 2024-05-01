@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <PostContext>
         <App />
-      </PostContext>
+        </PostContext>
     </BrowserRouter>
   </React.StrictMode>
 );
